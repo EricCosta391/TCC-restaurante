@@ -1,0 +1,62 @@
+body {
+    background-color: #823939;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+nav {
+    position: fixed;
+    top: 2.5%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+main {
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+}
+footer {
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+.totalimg{
+    display: flex;
+     gap:a; 
+    /* width: 100%; */
+    container: center; 
+    /* background-color: aquamarine; */
+}
+.testenavd{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:50px;
+}
+
+.botao-nav{
+    border: 2px;
+    border-style: solid;
+}
+.botao-nav-mae{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/* .img1{
+    border: 5px solid;
+    border-radius: 15px 15px 15px 15px;  
+} */

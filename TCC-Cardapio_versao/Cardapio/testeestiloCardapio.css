@@ -1,0 +1,96 @@
+body {
+    background-color: #823939;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+nav {
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+main {
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+}
+footer {
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+}
+.totalimg{
+    display: flex;
+    gap:50px;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+
+/* .img1{
+    border: 5px solid;
+    border-radius: 15px 15px 15px 15px;  
+} */
+
+
+.estilo {
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 5px 5px 0 0;
+    border-radius: 15px 0px 15px 0px;
+    width: 250px;
+    background-image: linear-gradient(90deg, rgb(30, 177, 226), rgb(17, 106, 136));
+    overflow: auto;
+}
+
+.estilo2 {
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 0 0 0 0;
+    border-radius: 10px;
+    width: 200px;
+    background-image: linear-gradient(90deg, rgb(30, 177, 226), rgb(17, 106, 136));
+    text-align: center;
+    overflow: auto;
+}
+
+.botao {
+    bottom: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.botao2 {
+    bottom: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    overflow: auto;
+}
+.botao3{
+    flex-wrap: nowrap;
+}
+.tbnav{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tdnav{
+    width: 25%;
+    text-align: center;
+}
